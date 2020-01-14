@@ -22,7 +22,7 @@ title: GOGO Print Sby
 email: gogoprintsby@gmail.com
 description: Jasa Cetak dan Print Banner, Kalender, Brosur, Umbul umbul, Baliho, Baju Partai besar, harga Murah di Indonesia
 long_description: Jasa Cetak dan Print Banner, Kalender, Brosur, Umbul umbul, Baliho, Baju Partai besar, harga Murah di Indonesia
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gogoprint.aksisoft.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
