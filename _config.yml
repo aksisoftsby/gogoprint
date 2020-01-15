@@ -43,17 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-avatar
   - jekyll-seo-tag
-  
-produk:
-  - Kalender
-  - Banner
-  - Umbul Umbul
-  - Desain Grafis
-  - Kaos
-  - Kaos Katun
-  - Kartu Nama
-  - Website
-  - 
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
