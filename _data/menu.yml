@@ -76,6 +76,9 @@
   - nama: Kaos Sablon
     slug: kaos/kaos-sablon
     is_active: kaos
+  - nama: Kaos Event
+    slug: kaos/kaos-event
+    is_active: kaos
 - nama: Desain Grafis
   slug: desain-grafis
   is_active: desain-grafis

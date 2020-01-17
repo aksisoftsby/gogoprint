@@ -14,30 +14,18 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Link Terkait</h4>
           <ul>
-            <li><a href="{{ site.url }}/#">Home</a></li>
+            <li><a href="{{ site.url }}">Home</a></li>
             <li><a href="{{ site.url }}/#">About us</a></li>
             <li><a href="{{ site.url }}/#">Services</a></li>
-            <li><a href="{{ site.url }}/#">Terms of service</a></li>
-            <li><a href="{{ site.url }}/#">Privacy policy</a></li>
+            <li><a href="https://gogoprint.aksisoft.com">Printing dan Desain Murah</a></li>
+            <li><a href="https://wedding.aksisoft.com">Jasa Wedding</a></li>
+            <li><a href="https://www.aksisoft.com/">Jasa Website Aksisoft MEDIA</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-contact">
           <h4>Kontak Kami</h4>
-          <p>
-            {{ site.kontak.alamat }}
-            Surabaya, Indonesia <br>
-            <strong>Phone:</strong> {{ site.kontak.hp }}<br>
-            <strong>Email:</strong> {{ site.kontak.email }}<br>
-          </p>
-
-          <div class="social-links">
-            <a href="index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="index.html#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="index.html#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          </div>
+          {% include part/kontakkami.html %}
 
         </div>
 
