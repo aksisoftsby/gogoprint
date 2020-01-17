@@ -9,7 +9,8 @@
     </div>
 
     <div class="intro-info">
-      <h2>Percetakan<br><span>Kualitas dan Murah</span><br>untuk bisnis dan usaha anda!</h2>
+      <h2>Percetakan{% if page.main_title %} {{ page.main_title }}{% endif %}<br>
+        <span>Kualitas dan Murah</span><br>untuk bisnis dan usaha anda!</h2>
       <div>
         <a href="{{ site.url }}#about" class="btn-get-started scrollto">Mulai</a>
         <a href="{{ site.url }}#services" class="btn-services scrollto">Produk</a>

@@ -12,19 +12,17 @@
 
     <nav class="main-nav float-right d-none d-lg-block">
       <ul>
-        {% for men in site.data.menu %}
-        {% if men.sub %}
-        <li class="drop-down"><a href="{{ site.url }}/{{ men.slug }}">{{ men.nama }}</a>
+        <li><a href="{{ site.url }}/">Home</a></li>
+        <li class="drop-down">
+          <a href="#">produk</a>
           <ul>
-            {% for mes in men.sub %}
-              <li><a href="{{ site.url }}/{{ mes.slug }}">{{ mes.nama }}</a></li>
+            {% for mes in site.data.menu %}
+            <li><a href="{{ site.url }}/{{ mes.slug }}">{{ mes.nama }}</a></li>
             {% endfor %}
           </ul>
         </li>
-        {% else %}
-        <li><a href="{{ site.url }}/{{ men.slug }}">{{ men.nama }}</a></li>
-        {% endif %}
-        {% endfor %}
+        <li><a href="https://wedding.aksisoft.com">Wedding</a></li>
+        <li><a href="https://www.aksisoft.com">Jasa Web</a></li>
       </ul>
     </nav><!-- .main-nav -->
 
